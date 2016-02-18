@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28217AA71C5843F80070AAF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28217AA61C5843F80070AAF0 /* main.m */; };
+		28217AAA1C5843F80070AAF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28217AA91C5843F80070AAF0 /* AppDelegate.m */; };
+		28217AAD1C5843F80070AAF0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 28217AAC1C5843F80070AAF0 /* GameScene.m */; };
+		28217AAF1C5843F80070AAF0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 28217AAE1C5843F80070AAF0 /* GameScene.sks */; };
+		28217AB21C5843F80070AAF0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28217AB11C5843F80070AAF0 /* GameViewController.m */; };
+		28217AB71C5843F80070AAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28217AB61C5843F80070AAF0 /* Assets.xcassets */; };
+		28217ABA1C5843F80070AAF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28217AB81C5843F80070AAF0 /* LaunchScreen.storyboard */; };
+		2855459D1C5D7D58007D02CF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2855459C1C5D7D58007D02CF /* SettingsViewController.m */; };
+		285545A01C5D8307007D02CF /* LoadGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2855459F1C5D8307007D02CF /* LoadGameViewController.m */; };
+		285545A31C5D831C007D02CF /* NewCampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285545A21C5D831C007D02CF /* NewCampaignViewController.m */; };
+		285545A61C5D8AF7007D02CF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 285545A51C5D8AF7007D02CF /* Constants.m */; };
+		28AD1A3A1C64DCEE00A5EBC5 /* TalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD1A391C64DCEE00A5EBC5 /* TalesViewController.m */; };
+		28AD1A3D1C64DD0F00A5EBC5 /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD1A3C1C64DD0F00A5EBC5 /* GameMap.m */; };
+		28AD1A401C66031100A5EBC5 /* ExtendNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD1A3F1C66031100A5EBC5 /* ExtendNSLog.m */; };
+		28AD1A441C6608E300A5EBC5 /* Tale.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD1A431C6608E300A5EBC5 /* Tale.m */; };
+		28AD1A461C6616D300A5EBC5 /* tales.json in Resources */ = {isa = PBXBuildFile; fileRef = 28AD1A451C6616D300A5EBC5 /* tales.json */; };
+		28AD1A491C66504D00A5EBC5 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD1A481C66504D00A5EBC5 /* Player.m */; };
+		28AD1A4C1C66513500A5EBC5 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AD1A4B1C66513500A5EBC5 /* Tile.m */; };
+		28CC67901C5C234600F9C638 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CC678B1C5C234600F9C638 /* Unit.m */; };
+		28CC67911C5C234600F9C638 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CC678D1C5C234600F9C638 /* Building.m */; };
+		28CC67921C5C234600F9C638 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CC678F1C5C234600F9C638 /* Hero.m */; };
+		28CC67A81C5C2D1300F9C638 /* LauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CC67A71C5C2D1300F9C638 /* LauncherViewController.m */; };
+		28CC67AB1C5C2D5700F9C638 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CC67AA1C5C2D5700F9C638 /* MainMenuViewController.m */; };
+		28CC67B51C5C2F0C00F9C638 /* DeutscheUncialis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CC67B41C5C2F0C00F9C638 /* DeutscheUncialis.ttf */; };
+		28CC67B71C5C2F0F00F9C638 /* EhmckeSchwabacher.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CC67B61C5C2F0F00F9C638 /* EhmckeSchwabacher.ttf */; };
+		28D0CA8A1C6E2D4500D7FEED /* grunwald.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 28D0CA891C6E2D4500D7FEED /* grunwald.mp4 */; };
+		28D0CA8D1C6F34D300D7FEED /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D0CA8C1C6F34D300D7FEED /* Settings.m */; };
+		28F89A711C73E6EB00841D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F89A701C73E6EB00841D90 /* Main.storyboard */; };
+		28FD18761C677FB50003AE4B /* christ_erstanden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 28FD18751C677FB50003AE4B /* christ_erstanden.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28217AA21C5843F80070AAF0 /* Teutonica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teutonica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28217AA61C5843F80070AAF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28217AA81C5843F80070AAF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28217AA91C5843F80070AAF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28217AAB1C5843F80070AAF0 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		28217AAC1C5843F80070AAF0 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		28217AAE1C5843F80070AAF0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		28217AB01C5843F80070AAF0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		28217AB11C5843F80070AAF0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		28217AB61C5843F80070AAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28217AB91C5843F80070AAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28217ABB1C5843F80070AAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2855459B1C5D7D58007D02CF /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2855459C1C5D7D58007D02CF /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2855459E1C5D8307007D02CF /* LoadGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGameViewController.h; sourceTree = "<group>"; };
+		2855459F1C5D8307007D02CF /* LoadGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGameViewController.m; sourceTree = "<group>"; };
+		285545A11C5D831C007D02CF /* NewCampaignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCampaignViewController.h; sourceTree = "<group>"; };
+		285545A21C5D831C007D02CF /* NewCampaignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCampaignViewController.m; sourceTree = "<group>"; };
+		285545A41C5D8AF7007D02CF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		285545A51C5D8AF7007D02CF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		28AD1A381C64DCEE00A5EBC5 /* TalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalesViewController.h; sourceTree = "<group>"; };
+		28AD1A391C64DCEE00A5EBC5 /* TalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalesViewController.m; sourceTree = "<group>"; };
+		28AD1A3B1C64DD0F00A5EBC5 /* GameMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap.h; sourceTree = "<group>"; };
+		28AD1A3C1C64DD0F00A5EBC5 /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
+		28AD1A3E1C66031100A5EBC5 /* ExtendNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendNSLog.h; sourceTree = "<group>"; };
+		28AD1A3F1C66031100A5EBC5 /* ExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendNSLog.m; sourceTree = "<group>"; };
+		28AD1A411C66056100A5EBC5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		28AD1A421C6608E300A5EBC5 /* Tale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tale.h; sourceTree = "<group>"; };
+		28AD1A431C6608E300A5EBC5 /* Tale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tale.m; sourceTree = "<group>"; };
+		28AD1A451C6616D300A5EBC5 /* tales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tales.json; sourceTree = "<group>"; };
+		28AD1A471C66504D00A5EBC5 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		28AD1A481C66504D00A5EBC5 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		28AD1A4A1C66513500A5EBC5 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		28AD1A4B1C66513500A5EBC5 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		28CC678A1C5C234600F9C638 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		28CC678B1C5C234600F9C638 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
+		28CC678C1C5C234600F9C638 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		28CC678D1C5C234600F9C638 /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		28CC678E1C5C234600F9C638 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		28CC678F1C5C234600F9C638 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		28CC67A61C5C2D1300F9C638 /* LauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewController.h; sourceTree = "<group>"; };
+		28CC67A71C5C2D1300F9C638 /* LauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewController.m; sourceTree = "<group>"; };
+		28CC67A91C5C2D5700F9C638 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		28CC67AA1C5C2D5700F9C638 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		28CC67B41C5C2F0C00F9C638 /* DeutscheUncialis.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DeutscheUncialis.ttf; path = Fonts/DeutscheUncialis.ttf; sourceTree = "<group>"; };
+		28CC67B61C5C2F0F00F9C638 /* EhmckeSchwabacher.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EhmckeSchwabacher.ttf; path = Fonts/EhmckeSchwabacher.ttf; sourceTree = "<group>"; };
+		28D0CA891C6E2D4500D7FEED /* grunwald.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = grunwald.mp4; sourceTree = "<group>"; };
+		28D0CA8B1C6F34D300D7FEED /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		28D0CA8C1C6F34D300D7FEED /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		28F89A701C73E6EB00841D90 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		28FD18751C677FB50003AE4B /* christ_erstanden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = christ_erstanden.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28217A9F1C5843F80070AAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28217A991C5843F80070AAF0 = {
+			isa = PBXGroup;
+			children = (
+				28217AA41C5843F80070AAF0 /* Teutonica */,
+				28217AA31C5843F80070AAF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28217AA31C5843F80070AAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28217AA21C5843F80070AAF0 /* Teutonica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28217AA41C5843F80070AAF0 /* Teutonica */ = {
+			isa = PBXGroup;
+			children = (
+				28217AA81C5843F80070AAF0 /* AppDelegate.h */,
+				28217AA91C5843F80070AAF0 /* AppDelegate.m */,
+				28217AAB1C5843F80070AAF0 /* GameScene.h */,
+				28217AAC1C5843F80070AAF0 /* GameScene.m */,
+				28CC679D1C5C24A700F9C638 /* ViewControllers */,
+				28CC679C1C5C248600F9C638 /* Storyboards */,
+				28CC679B1C5C246100F9C638 /* Models */,
+				28CC67981C5C242700F9C638 /* Resources */,
+				28217AA51C5843F80070AAF0 /* Supporting Files */,
+			);
+			path = Teutonica;
+			sourceTree = "<group>";
+		};
+		28217AA51C5843F80070AAF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28217ABB1C5843F80070AAF0 /* Info.plist */,
+				28217AA61C5843F80070AAF0 /* main.m */,
+				28217AAE1C5843F80070AAF0 /* GameScene.sks */,
+				28AD1A411C66056100A5EBC5 /* PrefixHeader.pch */,
+				28AD1A3E1C66031100A5EBC5 /* ExtendNSLog.h */,
+				28AD1A3F1C66031100A5EBC5 /* ExtendNSLog.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28CC67981C5C242700F9C638 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28FD18751C677FB50003AE4B /* christ_erstanden.mp3 */,
+				28AD1A451C6616D300A5EBC5 /* tales.json */,
+				285545A41C5D8AF7007D02CF /* Constants.h */,
+				285545A51C5D8AF7007D02CF /* Constants.m */,
+				28D0CA891C6E2D4500D7FEED /* grunwald.mp4 */,
+				28217AB61C5843F80070AAF0 /* Assets.xcassets */,
+				28CC67B41C5C2F0C00F9C638 /* DeutscheUncialis.ttf */,
+				28CC67B61C5C2F0F00F9C638 /* EhmckeSchwabacher.ttf */,
+				28D0CA8B1C6F34D300D7FEED /* Settings.h */,
+				28D0CA8C1C6F34D300D7FEED /* Settings.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		28CC679B1C5C246100F9C638 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28CC678A1C5C234600F9C638 /* Unit.h */,
+				28CC678B1C5C234600F9C638 /* Unit.m */,
+				28CC678C1C5C234600F9C638 /* Building.h */,
+				28CC678D1C5C234600F9C638 /* Building.m */,
+				28CC678E1C5C234600F9C638 /* Hero.h */,
+				28CC678F1C5C234600F9C638 /* Hero.m */,
+				28AD1A3B1C64DD0F00A5EBC5 /* GameMap.h */,
+				28AD1A3C1C64DD0F00A5EBC5 /* GameMap.m */,
+				28AD1A421C6608E300A5EBC5 /* Tale.h */,
+				28AD1A431C6608E300A5EBC5 /* Tale.m */,
+				28AD1A471C66504D00A5EBC5 /* Player.h */,
+				28AD1A481C66504D00A5EBC5 /* Player.m */,
+				28AD1A4A1C66513500A5EBC5 /* Tile.h */,
+				28AD1A4B1C66513500A5EBC5 /* Tile.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		28CC679C1C5C248600F9C638 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				28217AB81C5843F80070AAF0 /* LaunchScreen.storyboard */,
+				28F89A701C73E6EB00841D90 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		28CC679D1C5C24A700F9C638 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28217AB01C5843F80070AAF0 /* GameViewController.h */,
+				28217AB11C5843F80070AAF0 /* GameViewController.m */,
+				28CC67A61C5C2D1300F9C638 /* LauncherViewController.h */,
+				28CC67A71C5C2D1300F9C638 /* LauncherViewController.m */,
+				28CC67A91C5C2D5700F9C638 /* MainMenuViewController.h */,
+				28CC67AA1C5C2D5700F9C638 /* MainMenuViewController.m */,
+				2855459B1C5D7D58007D02CF /* SettingsViewController.h */,
+				2855459C1C5D7D58007D02CF /* SettingsViewController.m */,
+				2855459E1C5D8307007D02CF /* LoadGameViewController.h */,
+				2855459F1C5D8307007D02CF /* LoadGameViewController.m */,
+				285545A11C5D831C007D02CF /* NewCampaignViewController.h */,
+				285545A21C5D831C007D02CF /* NewCampaignViewController.m */,
+				28AD1A381C64DCEE00A5EBC5 /* TalesViewController.h */,
+				28AD1A391C64DCEE00A5EBC5 /* TalesViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28217AA11C5843F80070AAF0 /* Teutonica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28217ABE1C5843F80070AAF0 /* Build configuration list for PBXNativeTarget "Teutonica" */;
+			buildPhases = (
+				28217A9E1C5843F80070AAF0 /* Sources */,
+				28217A9F1C5843F80070AAF0 /* Frameworks */,
+				28217AA01C5843F80070AAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teutonica;
+			productName = Teutonica;
+			productReference = 28217AA21C5843F80070AAF0 /* Teutonica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28217A9A1C5843F80070AAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Aleksander;
+				TargetAttributes = {
+					28217AA11C5843F80070AAF0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4PMQN4TY5K;
+					};
+				};
+			};
+			buildConfigurationList = 28217A9D1C5843F80070AAF0 /* Build configuration list for PBXProject "Teutonica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28217A991C5843F80070AAF0;
+			productRefGroup = 28217AA31C5843F80070AAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28217AA11C5843F80070AAF0 /* Teutonica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28217AA01C5843F80070AAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FD18761C677FB50003AE4B /* christ_erstanden.mp3 in Resources */,
+				28AD1A461C6616D300A5EBC5 /* tales.json in Resources */,
+				28D0CA8A1C6E2D4500D7FEED /* grunwald.mp4 in Resources */,
+				28CC67B51C5C2F0C00F9C638 /* DeutscheUncialis.ttf in Resources */,
+				28217AAF1C5843F80070AAF0 /* GameScene.sks in Resources */,
+				28CC67B71C5C2F0F00F9C638 /* EhmckeSchwabacher.ttf in Resources */,
+				28F89A711C73E6EB00841D90 /* Main.storyboard in Resources */,
+				28217ABA1C5843F80070AAF0 /* LaunchScreen.storyboard in Resources */,
+				28217AB71C5843F80070AAF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28217A9E1C5843F80070AAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD1A441C6608E300A5EBC5 /* Tale.m in Sources */,
+				28CC67901C5C234600F9C638 /* Unit.m in Sources */,
+				28D0CA8D1C6F34D300D7FEED /* Settings.m in Sources */,
+				28217AB21C5843F80070AAF0 /* GameViewController.m in Sources */,
+				28217AAA1C5843F80070AAF0 /* AppDelegate.m in Sources */,
+				28AD1A401C66031100A5EBC5 /* ExtendNSLog.m in Sources */,
+				28AD1A4C1C66513500A5EBC5 /* Tile.m in Sources */,
+				285545A31C5D831C007D02CF /* NewCampaignViewController.m in Sources */,
+				28217AAD1C5843F80070AAF0 /* GameScene.m in Sources */,
+				28CC67AB1C5C2D5700F9C638 /* MainMenuViewController.m in Sources */,
+				28CC67A81C5C2D1300F9C638 /* LauncherViewController.m in Sources */,
+				285545A61C5D8AF7007D02CF /* Constants.m in Sources */,
+				28AD1A3A1C64DCEE00A5EBC5 /* TalesViewController.m in Sources */,
+				28217AA71C5843F80070AAF0 /* main.m in Sources */,
+				285545A01C5D8307007D02CF /* LoadGameViewController.m in Sources */,
+				2855459D1C5D7D58007D02CF /* SettingsViewController.m in Sources */,
+				28AD1A3D1C64DD0F00A5EBC5 /* GameMap.m in Sources */,
+				28CC67911C5C234600F9C638 /* Building.m in Sources */,
+				28AD1A491C66504D00A5EBC5 /* Player.m in Sources */,
+				28CC67921C5C234600F9C638 /* Hero.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28217AB81C5843F80070AAF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28217AB91C5843F80070AAF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28217ABC1C5843F80070AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28217ABD1C5843F80070AAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28217ABF1C5843F80070AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teutonica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aleksander.Teutonica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28217AC01C5843F80070AAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teutonica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aleksander.Teutonica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28217A9D1C5843F80070AAF0 /* Build configuration list for PBXProject "Teutonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28217ABC1C5843F80070AAF0 /* Debug */,
+				28217ABD1C5843F80070AAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28217ABE1C5843F80070AAF0 /* Build configuration list for PBXNativeTarget "Teutonica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28217ABF1C5843F80070AAF0 /* Debug */,
+				28217AC01C5843F80070AAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28217A9A1C5843F80070AAF0 /* Project object */;
+}
